@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce</title>
+    <!-- Tailwind Utilities -->
+    <link rel="stylesheet" href="../src/output.css">
+    <!-- CSS FILE -->
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./scroll-bar/scroll.css">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body class="font-Kanit">
+    <!-- 
+        MAIN SECTION ***********
+    -->
+    <section class="bg-gray-100">
+        <div>
+            <div>
+                <header class="flex justify-between m-auto max-w-screen-xl font-bold p-4">
+                    <div>SSTYLSHIA</div>
+                    <div>
+                        <ul class="flex gap-7">
+                            <li class="text-orange-600 max-[464px]:hidden"><a href="#">Home</a></li>
+                            <li class="max-[464px]:hidden"><a href="#">Featured</a></li>
+                            <li class="max-[464px]:hidden"><a href="#">New</a></li>
+                            <li class="max-[464px]:hidden"><a href="#">Subscribed</a></li>
+                            <li class="transition-transform hover:skew-x-12">
+                                <a href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" /></svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </header>
+                <div class="flex justify-center gap-36 pt-10 max-[794px]:flex-wrap-reverse max-[794px]:gap-0">
+                    <div class="pt-10 max-[794px]:text-center max-[794px]:pt-0">
+                        <h1 class="text-9xl tracking-normal font-bold">NEW</h1>
+                        <p class="pl-2 py-10 tracking-normal font-bold max-[794px]:pl-0">ARRIVALS</p>
+                        <a href="#" title="Shopping..!">
+                            <button class="ml-2 bg-orange-600 border border-gray-100 text-white py-2 px-4 transition-all hover:bg-gray-100 hover:text-gray-500 hover:border hover:border-gray-400 max-[794px]:ml-0">Go Shopping</button>
+                        </a>
+                    </div>
+                    <img class="w-72" src="../assets/img/home.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 
+        backpack section
+    
+    -->
+
+    <section class="py-10">
+        <div>
+            <div class="flex justify-center gap-16 max-[886px]:flex-wrap max-[886px]:gap-3">
+                <div class="flex items-center gap-14 bg-gray-100 px-12">
+                    <img class="w-32" src="../assets/img/backpackMan.png" alt="">
+                    <div class="max-w-40">
+                        <h1 class="text-4xl"><span class="text-gray-400">MAN</span></h1>
+                        <h1 class="text-4xl mb-2">BACKPACK</h1>
+                        <a class="text-gray-400 underline underline-offset-4" href="#">view collection</a>
+                    </div>
+                </div>
+                <div class="flex items-center gap-14 bg-gray-100 px-12">
+                    <div class="max-w-40">
+                        <h1 class="text-4xl"><span class="text-gray-400">WOMEN</span></h1>
+                        <h1 class="text-4xl mb-2">BACKPACK</h1>
+                        <a class="text-gray-400 underline underline-offset-4" href="#">view collection</a>
+                    </div>
+                    <img class="w-32" src="../assets/img/backpackWoman.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 
+        featured products
+    
+    -->
+    <section>
+        <div class="py-16">
+            <div class="text-center pb-10">
+                <h1 class="text-center">FEATURED PRODUCTS</h1>
+                <a href="#">view all</a>
+            </div>
+            <div class="max-w-[1300px] m-auto">
+                <div class="flex justify-center gap-7 max-[894px]:flex-wrap">
+                    <div class="w-3/12 max-[894px]:w-4/12 max-sm:w-11/12">
+                        <a href="">
+                            <div class="after-status relative bg-gray-100 flex justify-center">
+                                <img src="../assets/img/feature1.png" alt="">                      
+                            </div>
+                            <div class="text-center">
+                                <h1>HEADPHONE ONE BLACK</h1>
+                                <span>$20</span>
+                            </div>
+                        </a>
+                    </div> 
+                    <div class="w-3/12 max-[894px]:w-4/12 max-sm:w-11/12">
+                        <a href="">
+                            <div class="after-status relative bg-gray-100 flex justify-center">
+                                <img src="../assets/img/feature2.png" alt="">
+                            </div>
+                            <div class="text-center">
+                                <h1>SPEAKER BEAT PILL</h1>
+                                <span>$40</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="w-3/12 max-[894px]:w-4/12 max-sm:w-11/12">
+                        <a href="#">
+                            <div class="after-status relative bg-gray-100 flex justify-center">
+                                <img src="../assets/img/feature3.png" alt="">
+                            </div>
+                            <div class="text-center">
+                                <h1>APPEL AIR PODS</h1>
+                                <span>$35</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="w-3/12 max-[894px]:w-4/12 max-sm:w-11/12">
+                        <a href="#">
+                            <div class="after-status relative bg-gray-100 flex justify-center">
+                                <img src="../assets/img/feature4.png" alt="">
+                            </div>
+                            <div class="text-center">
+                                <h1>SMART WATCH F9 NEGRO</h1>
+                                <span>$90</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 
+        special offer
+    
+    -->
+    <section>
+        <div class="bg-taker flex justify-center items-center">
+            <div class="text-center">
+                <h1 class="text-6xl text-white tracking-normal">SPECIAL OFFER</h1>
+                <p class="text-gray-100 pt-5">Special discounts are available for weeks</p>
+                <button class="p-2 text-gray-100 mt-5 bg-orange-600 py-2 px-4 transition-all hover:bg-gray-100 hover:text-gray-500"><a href="#">SHOP NOW</a></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- 
+        new arrivals items
+    
+    -->
+    <section>
+        <div class="py-20">
+            <div class="text-center pb-2">
+                <h1 class="text-center">NEW ARRIVALS</h1>
+                <a href="#">view all</a>
+            </div>
+            <div class="max-w-[1300px] m-auto">
+                <div class="flex justify-center flex-wrap">
+                    <div class="w-4/12 p-3 max-sm:w-11/12">
+                        <a href="">
+                            <div class="bg-gray-100 flex justify-center">
+                                <img src="../assets/img/new1.png" alt="">                      
+                            </div>
+                            <div class="text-center">
+                                <h1>LEATHER BLACK BACKPACK</h1>
+                                <span>$20</span>
+                            </div>
+                        </a>
+                    </div> 
+                    <div class="w-4/12 p-3 max-sm:w-11/12">
+                        <a href="">
+                            <div class="bg-gray-100 flex justify-center">
+                                <img src="../assets/img/new2.png" alt="">
+                            </div>
+                            <div class="text-center">
+                                <h1>LEATHER WOMEN BAG</h1>
+                                <span>$40</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="w-4/12 p-3 max-sm:w-11/12">
+                        <a href="#">
+                            <div class="bg-gray-100 flex justify-center">
+                                <img src="../assets/img/new3.png" alt="">
+                            </div>
+                            <div class="text-center">
+                                <h1>SUNGLASSES</h1>
+                                <span>$35</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="w-4/12 p-3 max-sm:w-11/12">
+                        <a href="#">
+                            <div class="bg-gray-100 flex justify-center">
+                                <img src="../assets/img/new4.png" alt="">
+                            </div>
+                            <div class="text-center">
+                                <h1>APPEL SMART WATCH X10</h1>
+                                <span>$90</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="w-4/12 p-3 max-sm:w-11/12">
+                        <a href="#">
+                            <div class="bg-gray-100 flex justify-center">
+                                <img src="../assets/img/new5.png" alt="">
+                            </div>
+                            <div class="text-center">
+                                <h1></h1>
+                                <span>$90</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="w-4/12 p-3 max-sm:w-11/12">
+                        <a href="#">
+                            <div class="bg-gray-100 flex justify-center">
+                                <img src="../assets/img/new6.png" alt="">
+                            </div>
+                            <div class="text-center">
+                                <h1>SMART WATCH F9 NEGRO</h1>
+                                <span>$90</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 
+        OUR NEWS
+    
+    -->
+    <section>
+        <div class="pb-5">
+            <div class="text-center">
+                <h1>REQUESTED PRODUCTS</h1>
+                <p class="pb-7">Share your desired products with us</p>
+                <div>
+                    <form action="">
+                        <input class="p-2 min-w-80 outline-none bg-gray-100" type="email" placeholder="Enter your email">
+                        <input class="cursor-pointer p-2 px-5 bg-orange-600 text-white" type="button" value="Send">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr class="border border-gray-200 my-12">
+
+    <!-- 
+        LOGOS SECTION
+    
+    -->
+    <section>
+        <div>
+            <ul class="flex justify-center items-center gap-28 max-sm:flex-wrap max-sm:gap-12">
+                <li><img src="../assets/img/logo1.png" alt=""></li>
+                <li><img src="../assets/img/logo2.png" alt=""></li>
+                <li><img src="../assets/img/logo3.png" alt=""></li>
+                <li><img src="../assets/img/logo4.png" alt=""></li>
+                <li><img class="w-28" src="../assets/img/logo5.png" alt=""></li>
+                <li><img class="w-40" src="../assets/img/logo7.png.png" alt=""></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- 
+        FOOTER
+    
+    -->
+    <footer class="pt-12">
+        <div class="bg-black">
+            <div class="p-20 flex justify-center gap-52 text-white max-[978px]:flex-col max-[978px]:gap-10 max-[978px]:p-10">
+                <div class="text-white">
+                    <ul>
+                        <li>SSTYLSHIA</li>
+                        <li class="py-3">Product Store</li>
+                        <li class="flex">
+                            <a href="#"><img class="w-32 mr-3" src="../assets/img/footerstore1.png"></a>
+                            <a href="#"><img class="w-32" src="../assets/img/footerstore2.png"></a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li>EXPLORE</li>
+                        <li class="text-gray-400"><a href="">Home</a></li>
+                        <li class="text-gray-400"><a href="">Featured</a></li>
+                        <li class="text-gray-400"><a href="">New</a></li>
+                        <li class="text-gray-400"><a href="">Subscribed</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li>OUR SERVICE</li>
+                        <li class="text-gray-400"><a href="">Pricing</a></li>
+                        <li class="text-gray-400"><a href="">Free shipping</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h1>SOCIAL MEDIA</h1>
+                    <div class="text-gray-400 flex gap-5 pt-3">
+                        <span>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                        </span>
+                        <span>
+                            <a href="#"><i class="fa fa-facebook-square"></i></a>
+                        </span>
+                        <span>
+                            <a href="#"><i class="fa fa-linkedin-square"></i></a>
+                        </span>
+                        <span>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-wrap justify-around py-4 border-t border-gray-700 text-gray-500">
+                <div>
+                    All rights reserved For SSTYLSHIA.
+                    <i class="fa fa-copyright"></i>
+                </div>
+                <div>
+                    <a class="hover:text-gray-200 transition-all" href="https://github.com/ArshiarshiA">Programmer : Arshia Mansury</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JS LINK -->
+    <script src="./app.js"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+/*
+
+ADD font */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+html{
+    font-family: "Kanit" , sans-serif;
+}
+/*
+
+NEW AFTER IN CARD */
+.after-status::after{
+    content: 'NEW';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 23px;
+    color: white;
+    background-color: #ea580c;
+    text-align: center;
+}
+/* 
+
+OFFER BACKGROUND */
+.bg-taker{
+    background-image: url('../assets/img/offer.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(71, 71, 71, 0.753);
+    background-blend-mode: multiply;
+    height: 670px;
+}
