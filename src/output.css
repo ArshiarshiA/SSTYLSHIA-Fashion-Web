@@ -751,6 +751,10 @@ video {
   gap: 1.25rem;
 }
 
+.gap-10 {
+  gap: 2.5rem;
+}
+
 .border {
   border-width: 1px;
 }
